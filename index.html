@@ -1,24 +1,239 @@
-<!-- 
-HTML Template for Missions, delete and replace with mission HTML
--->
+
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="style.css" />
-  <title>Gnius Club</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Playbook - Preescolar Sesión 14</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-
 <body>
-  <h1>
-    Playbook HTML Placeholder Template
-  </h1>
-  <p>
-    Replace with actual playbook code.
-  </p>
-  <script src="script.js"></script>
+<header>
+<h1><span class="book-icon">📋</span> <strong>Playbook Sesión 14 Kínder 1</strong></h1>
+<div class="header-widgets">
+<div class="timer-container">
+<span id="timer">⏱️ 00:00</span>
+<button id="startStop">Start</button>
+<button id="reset">Reset</button>
+</div>
+<div class="theme-toggle">
+<i class="fas fa-sun"></i>
+<label class="switch">
+<input type="checkbox" id="theme-toggle-input">
+<span class="slider round"></span>
+</label>
+<i class="fas fa-moon"></i>
+</div>
+</div>
+</header>
+<div class="main-container">
+<aside class="activity-list">
+<h2>Actividades</h2>
+<ul>
+<li><a href="#activity-0">📝</a></li>
+<li><a href="#activity-1">1</a></li>
+<li><a href="#activity-2">2</a></li>
+<li><a href="#activity-3">3</a></li>
+<li><a href="#activity-4">4</a></li>
+</ul>
+<div class="sidebar-info">
+<p>💡 Cada actividad está diseñada para ser lúdica y captar la atención de los más pequeños.</p>
+<p>⏱️ Los tiempos son una guía. Sé flexible y adáptate al ritmo del grupo.</p>
+</div>
+</aside>
+<main class="content">
+<div class="progress-bar">
+<div class="progress"></div>
+</div>
+<button id="toggle-dialogues">Mostrar todos los diálogos</button>
+<div class="activity-card" id="activity-0">
+<h2><span class="book-icon">📝</span> De un Vistazo: Misión: ¡El Gran Desafío del Baile de Patrones!</h2>
+<p class="overview-subtitle">Resumen rápido de objetivos, materiales y preparación para esta aventura de aprendizaje.</p>
+<div class="overview-table-container">
+<table>
+<thead>
+<tr>
+<th style="width: 50%;">Objetivos, Tácticas y Entregable</th>
+<th style="width: 50%;">Materiales Específicos y Preparación Previa</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<strong>Objetivos de Aprendizaje:</strong>
+<ul>
+<li>Traducir un patrón visual a un patrón de movimiento corporal.</li>
+<li>Seguir una secuencia de movimientos en patrón.</li>
+<li>Crear un patrón de movimiento en parejas.</li>
+</ul>
+<strong>Secuencia Didáctica de la Misión:</strong>
+<ul>
+<li>⚡ Actividad 1: Bienvenida y Calentamiento Cerebral</li>
+<li>⚡ Actividad 2: Introducción al Movimiento: ¡Descifrando el Código del Baile!</li>
+<li>⚡ Actividad 3: ¡Manos a la Obra!: ¡La Danza Secreta de los Patrones!</li>
+<li>⚡ Actividad 4: Puesta en Común y Cierre de la Misión: ¡El Gran Festival de la Danza!</li>
+</ul>
+<strong>Entregable Clave:</strong>
+<ul>
+<li>Ejecución de un patrón de movimiento ABAB siguiendo las indicaciones.</li>
+<li>Participación activa en el seguimiento del patrón de movimiento diseñado por su compañero.</li>
+<li>Colaboración efectiva en la selección y organización de movimientos para crear un patrón.</li>
+</ul>
+</td>
+<td>
+<strong>Materiales Específicos:</strong>
+<ul>
+<li>Tarjetas con dibujos de movimientos (saltar, aplaudir, girar, agacharse, etc. - se recomienda tener varias opciones).</li>
+</ul>
+<strong>Preparación Previa para ESTA Sesión:</strong>
+<ol>
+<li><strong>Revisión de Materiales:</strong> Asegurar que todos los materiales estén completos, limpios y listos para ser repartidos. Esto incluye las tarjetas de movimiento.</li>
+<li><strong>Preparación del Espacio:</strong> Organizar el aula para facilitar la actividad. Se necesita un espacio abierto y seguro donde los niños puedan moverse libremente sin chocar. Despejar sillas y mesas si es necesario.</li>
+<li><strong>Familiarización:</strong> Leer el playbook completo para entender el flujo narrativo, los diálogos y las transiciones. Tener clara la historia o el reto que se presentará para mantener el entusiasmo de los niños.</li>
+<li><strong>Música:</strong> Preseleccionar música rítmica y alegre que pueda servir de fondo para las actividades de movimiento, especialmente para la actividad principal y el cierre.</li>
+</ol>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="activity-card" id="activity-1">
+<h2>⚡ Actividad 1: Bienvenida y Calentamiento Cerebral: ¡Despertando el Ritmo! ⏰ 5 min</h2>
+<p>Comenzamos nuestra aventura de hoy calentando motores y recordando lo divertido que es encontrar patrones en todo lo que nos rodea.</p>
+<div class="steps">
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 1: ¡A Recordar los Patrones! (Proyectar Diapositiva 1) ⏰ 3 min</h3>
+<p>Dar la bienvenida con entusiasmo a los niños. Recordar brevemente los patrones trabajados anteriormente, como los que hicieron con bloques de colores o cuentas para crear "trenes" o "collares". Preguntarles si recuerdan cómo se repetían los colores o las formas.</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Hola, hola, mis pequeños exploradores de patrones! ¡Qué alegría verlos hoy! ¿Están listos para una misión secreta llena de movimiento y diversión? ¡Sííííí! Hoy vamos a descubrir los patrones que podemos hacer con nuestro propio cuerpo. Pero antes, ¿se acuerdan cuando fuimos detectives de patrones con nuestros bloques y creamos trenes de colores o collares de formas? ¿Cómo hacíamos para que se vieran tan bonitos? ¡Ah, sí! ¡Repitiendo un orden! Hoy vamos a hacer algo aún más emocionante con nuestros movimientos. ¡Prepárense para mover el esqueleto y descubrir secretos!</p>
+</div>
+</div>
+</div>
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 2: ¡El Juego del "Patrón Escondido"! (Proyectar Diapositiva 2) ⏰ 2 min</h3>
+<p>Para calentar, la maestra puede iniciar un patrón corporal simple y pedir a los niños que lo sigan y lo identifiquen. Por ejemplo: "Aplauso, pisada, aplauso, pisada". Repetirlo varias veces y preguntar: "¿Cuál es el patrón que estamos haciendo? ¿Qué movimiento sigue?"</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Excelente memoria, equipo! Ahora, vamos a jugar a un juego rápido para despertar nuestros cuerpos y mentes. Yo voy a hacer dos movimientos y quiero que ustedes me sigan y me digan cuál es el patrón, ¿listos? ¡Miren! (La maestra hace "Aplauso, pisada, aplauso, pisada"). ¡Ahora ustedes conmigo! (Repiten juntos). ¡Muy bien! ¿Quién puede decirme qué movimiento se repite y cuál viene después? ¡Exacto! ¡Aplauso y pisada! ¡Estamos haciendo un patrón con nuestro cuerpo! ¡Son unos genios de los patrones!</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="activity-card" id="activity-2">
+<h2>⚡ Actividad 2: Introducción al Movimiento: ¡Descifrando el Código del Baile! ⏰ 10 min</h2>
+<p>Exploramos cómo los patrones se convierten en movimientos divertidos, preparando nuestro cuerpo para la gran danza que crearemos.</p>
+<div class="steps">
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 1: ¡El Misterio de las Tarjetas Bailarinas! (Proyectar Diapositiva 3) ⏰ 5 min</h3>
+<p>Mostrar dos tarjetas grandes con dibujos claros de movimientos (ej. 'saltar' y 'aplaudir'). Explicar que cada tarjeta es un "paso secreto" para nuestra danza. Colocar las tarjetas en el suelo o en una pizarra en secuencia: saltar, aplaudir, saltar, aplaudir. Invitar a todo el grupo a realizar la secuencia de movimientos lentamente al principio y luego al ritmo de la maestra.</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Atención, atención, aventureros del movimiento! Miren estas tarjetas mágicas... ¡parecen esconder un secreto! Esta tarjeta (mostrar la de saltar) nos dice '¡salta, salta, salta como un conejo!', y esta otra (mostrar la de aplaudir) nos dice '¡aplaude, aplaude, aplaude como una foca!'. ¿Qué pasaría si las combinamos en un orden especial? ¡Vamos a ver! Primero 'saltar', luego 'aplaudir', después otra vez 'saltar', y luego 'aplaudir'. ¡Miren cómo las pongo aquí! (Señala las tarjetas). ¡Ahora, todos juntos, a la cuenta de tres! ¡Uno, dos, tres! ¡Saltar, aplaudir, saltar, aplaudir! ¡Guau! ¡Lo estamos haciendo genial!</p>
+</div>
+</div>
+</div>
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 2: ¡El Patrón Secreto Revelado! (Proyectar Diapositiva 4) ⏰ 5 min</h3>
+<p>Después de practicar la secuencia varias veces, hacer una pausa. Preguntar a los niños: "¿Qué movimientos se repiten? ¿Cuál viene después de saltar? ¿Y después de aplaudir?" Ayudarles a identificar que es un patrón "Saltar-Aplaudir-Saltar-Aplaudir" o ABAB. Animarlos a decir el patrón mientras lo hacen.</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Lo hicieron increíble! ¡Son unos bailarines fantásticos! Ahora, vamos a pensar como verdaderos detectives de patrones. ¿Qué notan en nuestros movimientos? ¿Se repiten? ¿Qué movimiento viene después de saltar? ¡Sí, aplaudir! ¿Y después de aplaudir? ¡Saltar de nuevo! ¡Estamos creando un patrón con nuestro cuerpo! Es como decir 'A' (saltar) y 'B' (aplaudir), y luego otra vez 'A', y luego 'B'. ¡Es un patrón A-B-A-B! ¡Vamos a hacerlo una vez más diciendo los movimientos: ¡Saltar-Aplaudir-Saltar-Aplaudir! ¡Qué energía!</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="activity-card" id="activity-3">
+<h2>⚡ Actividad 3: ¡Manos a la Obra!: ¡La Danza Secreta de los Patrones! ⏰ 20 min</h2>
+<p>Es hora de la creatividad. En parejas, crearemos nuestras propias danzas de patrones, combinando movimientos sorprendentes y únicos.</p>
+<div class="steps">
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 1: ¡Formando Equipos de Coreógrafos! (Proyectar Diapositiva 5) ⏰ 5 min</h3>
+<p>Organizar a los niños en parejas, explicándoles que trabajarán juntos como un "equipo de coreógrafos". Repartir a cada pareja un pequeño set de tarjetas con dibujos de movimientos variados (ej. saltar, aplaudir, girar, agacharse, tocar el suelo, levantar brazos, etc.). Explicar la misión: cada pareja debe elegir DOS tarjetas de movimiento de su set, ordenarlas para crear su propia "danza del patrón" (un patrón ABAB con sus dos movimientos elegidos) y practicarla juntos.</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Muy bien, exploradores del ritmo! Ahora viene lo más emocionante de nuestra misión. Vamos a formar equipos de dos, ¡como los mejores detectives de patrones y coreógrafos! Cada equipo recibirá unas tarjetas de movimiento, ¡son nuestras pistas secretas para bailar! Su misión es muy importante: elijan solo DOS de esas tarjetas, las que más les gusten. Luego, decidan cuál va primero y cuál después para crear su propia 'danza secreta de patrones'. Por ejemplo, si eligen 'girar' y 'agacharse', su patrón podría ser: ¡Girar, agacharse, girar, agacharse! ¿Están listos para diseñar su propio baile? ¡Recuerden, la música nos espera para mover el esqueleto! ¡A sus marcas, listos, a ordenar! (Poner música rítmica de fondo y usar el espacio abierto del salón para que tengan libertad de movimiento).</p>
+</div>
+</div>
+</div>
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 2: ¡Creando y Practicando Nuestro Patrón! (Proyectar Diapositiva 6) ⏰ 10 min</h3>
+<p>Mientras los niños trabajan en parejas, la maestra circulará por el salón. Ofrecerá ayuda, ánimo y hará preguntas abiertas para fomentar la creatividad, la colaboración y el pensamiento sobre patrones. Ejemplos de preguntas: "¿Qué pasaría si cambian el orden de sus movimientos?", "¿Y si hacen este movimiento más rápido o más lento?", "¿Cómo se aseguran de que es un patrón y no solo movimientos al azar?", "¿Qué movimiento se repite primero?".</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Increíble! ¡Veo a unos artistas del movimiento por aquí! ¡Qué patrones tan geniales están creando! ¡Recuerden practicar juntos, como un verdadero equipo de baile! ¿Ya probaron su secuencia varias veces? ¿Qué tal si hacen ese salto un poco más alto o ese giro un poco más lento? ¡Guau, qué coordinación! Y para que sea un patrón, ¿qué movimiento tienen que repetir primero? ¡Muy bien! ¡Sigan explorando, campeones del ritmo! ¡Están haciendo un trabajo fantástico de colaboración!</p>
+</div>
+</div>
+</div>
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 3: ¡El Último Ensayo General! (Proyectar Diapositiva 7) ⏰ 5 min</h3>
+<p>Anunciar que quedan pocos minutos para practicar. Animar a las parejas a hacer un "último ensayo general" de su danza del patrón, asegurándose de que ambos compañeros conozcan bien la secuencia y puedan realizarla juntos. Recordarles que pronto la compartirán con el grupo.</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Atención, coreógrafos! Nos quedan solo unos minutitos para perfeccionar nuestras danzas. ¡Este es el momento del "último ensayo general"! Practiquen su patrón una y otra vez para que sea perfecto. Asegúrense de que su compañero y ustedes saben muy bien qué movimiento va primero y cuál después. ¡Recuerden que pronto mostraremos nuestras increíbles creaciones en el "Festival de la Danza"! ¡Vamos, una última práctica con toda la energía!</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="activity-card" id="activity-4">
+<h2>⚡ Actividad 4: Puesta en Común y Cierre de la Misión: ¡El Gran Festival de la Danza! ⏰ 5 min</h2>
+<p>Celebramos nuestros logros compartiendo las increíbles danzas de patrones que creamos juntos, y reflexionamos sobre nuestra aventura.</p>
+<div class="steps">
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 1: ¡Compartiendo Nuestros Pasos! (Proyectar Diapositiva 8) ⏰ 3 min</h3>
+<p>Invitar a algunas parejas voluntarias a mostrar su danza del patrón al resto del grupo. Animar al "público" a intentar adivinar qué movimientos forman el patrón y a seguirlo con sus propios cuerpos. Celebrar cada participación con aplausos.</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Atención, atención, público conocedor! ¡Ha llegado el momento más esperado: el Gran Festival de la Danza de Patrones! ¿Quién quiere ser el primer equipo en mostrarnos su increíble creación? ¡No tengan pena! ¡Cada patrón es único y maravilloso! Y ustedes, espectadores, ¿están listos para adivinar y seguir el ritmo de nuestros amigos? ¡Preparen sus ojos de detective y sus cuerpos bailarines! ¡Vamos a aplaudirles muy fuerte a nuestros artistas! (Después de cada presentación) ¡Bravo, bravo! ¡Lo hicieron genial! ¿Quién adivinó el patrón? ¡Excelente trabajo!</p>
+</div>
+</div>
+</div>
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 2: ¡Misión Cumplida y Celebración! (Proyectar Diapositiva 9) ⏰ 2 min</h3>
+<p>Felicitar a todos los niños por su esfuerzo, creatividad y colaboración. Reflexionar brevemente sobre lo aprendido: cómo los patrones están en todas partes, incluso en nuestros movimientos, y cómo ellos mismos pueden crearlos. Despedida de la sesión, reforzando el mensaje positivo.</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Bravo, bravo, bravo, equipo de TECH4GOOD AI First! ¡Misión cumplida! ¡Han sido unos coreógrafos y detectives de patrones espectaculares! ¿Qué fue lo que más les gustó de esta aventura de baile? ¿Verdad que es increíble cómo podemos crear patrones con nuestro cuerpo? ¡Los patrones están en todas partes: en los colores, en los sonidos, y hoy los hicimos bailar! ¡Felicidades a todos por su energía, su creatividad y por trabajar tan bien en equipo! ¡Son unos campeones y unos artistas del movimiento! ¡Nos vemos en la próxima aventura!</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</main>
+</div>
+<script src="script.js"></script>
 </body>
-
 </html>
